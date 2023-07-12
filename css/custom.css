@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap');
+
+.main{
+    height: 100vh;
+    background-image: url(../images/earthgoneimg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 2px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.col{
+    margin-top: 20px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+
+input{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
